@@ -193,7 +193,12 @@ $grid-breakpoints: map-merge(
     sm: 576px,
     md: 768px,
     lg: 992px,
-    xl: 1200px
+    xl: 1200px,
+    hd: 1280px,
+    fhd: 1920px,
+    qhd: 2560px,
+    uhd1: 3840px,
+    uhd2: 7680px
   ),
   $grid-breakpoints
 );
@@ -213,7 +218,12 @@ $container-max-widths: map-merge(
     sm: 540px,
     md: 720px,
     lg: 960px,
-    xl: 1140px
+    xl: 1140px,
+    hd: 1220px,
+    fhd: 1860px,
+    qhd: 2500px,
+    uhd1: 3780px,
+    uhd2: 7620px,
   ),
   $container-max-widths
 );
@@ -922,6 +932,11 @@ $modal-header-padding-y:            1rem !default;
 $modal-header-padding-x:            1rem !default;
 $modal-header-padding:              $modal-header-padding-y $modal-header-padding-x !default; // Keep this for backwards compatibility
 
+$modal-uhd2:                        7620px !default;
+$modal-uhd1:                        3780px !default;
+$modal-qhd:                         2500px !default;
+$modal-fhd:                         1860px !default;
+$modal-hd:                          1220px !default;
 $modal-xl:                          1140px !default;
 $modal-lg:                          800px !default;
 $modal-md:                          500px !default;
